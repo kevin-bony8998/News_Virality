@@ -13,6 +13,8 @@ The code first scrapes news titles from both websites and compiles them into lis
 
 After checking for similarites(referred to as "scores" in the code), I plotted a pie chart to show relative potential virality of each news article. The pie graph shows only the subject of each article (extracted using the spacy Natural Language Processing package) to avoid congestion. The title of the plot is the most potentially viral news article. 
 
+(Also, note that the code to extract news from BBC is a little more complicated so as to ensure that the code is not identified to be an illegitimate user.)
+
 Required Packages: 
 1. BeautifulSoup
 2. requests
