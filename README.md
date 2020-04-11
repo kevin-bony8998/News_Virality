@@ -12,3 +12,9 @@ While anticipating the virality of a news article, I found it rudimentary that s
 The code first scrapes news titles from both websites and compiles them into lists. It then checks each BBC news article with the Google articles to find similarities between the two articles. I reasoned that if a major news websites and several medium sized news websites were reporting the same story, it would soon be picked up by smaller networks and would soon be tweeted about and so on and so forth. 
 
 After checking for similarites(referred to as "scores" in the code), I plotted a pie chart to show relative potential virality of each news article. The pie graph shows only the subject of each article (extracted using the spacy Natural Language Processing package) to avoid congestion. The title of the plot is the most potentially viral news article. 
+
+Required Packages: 
+-BeautifulSoup
+-requests
+-spacy
+-matplotlib.pyplot as plt
